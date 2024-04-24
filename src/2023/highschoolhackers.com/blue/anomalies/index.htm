@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)http://localhost/blue/anomalies/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Anomaly Overview - IScorE</title>
+    
+
+    <meta property="og:image" content="/static/img/iscore1_small.png">
+    <meta property="og:title" content="Anomaly Overview">
+    <meta property="og:url" content="http://localhost/blue/anomalies/">
+
+    <link rel="icon" href="http://localhost/static/img/favicon.png">
+    <link rel="manifest" href="http://localhost/static/manifest.json">
+
+    <link rel="stylesheet" href="./index_files/output.3d0579470055.css" type="text/css">
+
+    
+</head>
+<body data-new-gr-c-s-check-loaded="14.1029.0" data-gr-ext-installed="">
+<input type="hidden" id="applicationServerKey" value="BIl3fUZ225yzs0YYIg4FjdvSfNhs-6Kb7zpDZO9nXel0K6fMdqo-nwYLzfmv0m2bQg3qJyPB9Gi8cc572maWsKw">
+
+
+<div id="header">
+    <a href="http://localhost/">
+        
+            <img src="./index_files/iscore1_small.png" alt="IScorE" width="170" style="margin-top: 20px; margin-left: 20px;">
+        
+    </a>
+</div>
+
+<div id="sidebar">
+    <a href="http://localhost/blue/anomalies/#" class="visible-xs"><i class="icon-home"></i> Anomaly Overview</a>
+    <ul style="display: block;">
+        <li class=""><a href="http://localhost/"><i class="icon-list"></i>Scoreboard</a></li>
+        <li class="submenu">
+            <a href="http://localhost/blue/anomalies/#"><i class="icon icon-bar-chart"></i><span>Charts &amp; Graphs</span></a>
+            <ul>
+                <li class=""><a href="http://localhost/statistics/trends/">Score Trends</a></li>
+                <li class=""><a href="http://localhost/statistics/flag/">Flags</a></li>
+                <li class=""><a href="http://localhost/statistics/anomalies/">Anomalies</a></li>
+                <li class=""><a href="http://localhost/statistics/availability/">Availability</a></li>
+            </ul>
+        </li>
+        <li class=""><a href="http://localhost/services/status/"><i class="icon-check"></i>Service Status</a></li>
+        
+            <li class=""><a href="http://localhost/red/wiki/"><i class="icon-edit"></i>Red Wiki</a></li>
+        
+        
+
+        
+            <li class=""><a href="http://localhost/user_profile/"><i class="icon-user"></i> User Profile</a></li>
+            <li>&nbsp;</li>
+        
+
+        <!-- Blue Team Area -->
+        
+            
+        <li class=""><a href="http://localhost/dashboard"><i class="icon-th"></i> Dashboard</a></li>
+        <li class=""><a href="http://localhost/blue/tsi/"><i class="icon-credit-card"></i> Team Specific Info</a></li>
+        <li class="active"><a href="http://localhost/blue/anomalies/"><i class="icon-asterisk"></i> Anomalies</a></li>
+        <li class=""><a href="http://localhost/blue/usability/"><i class="icon-check"></i> Usability </a></li>
+        <li class=""><a href="http://localhost/blue/dns/"><i class="icon-wrench"></i> DNS Records</a></li>
+        <li class=""><a href="http://localhost/blue/teaminfo/"><i class="icon-pencil"></i> Team Info</a></li>
+        <li class=""><a href="http://localhost/blue/download/flags/"><i class="icon-download-alt"></i> Download Flags</a></li>
+        
+            <li class=""><a href="http://localhost/reports/team/205/"><i class="icon-list-alt"></i> Score Report</a></li>
+        
+        
+            <li class=""><a href="http://localhost/blue/summary"><i class="icon-flag"></i> Red Summary</a></li>
+        
+        
+        
+
+        <!-- Red Team Area -->
+        
+
+        <!-- Green Team Area -->
+        
+
+        <!-- White Team Area -->
+        
+
+        <!-- CDC Admin Area -->
+        
+
+
+    </ul>
+    <!-- Sponsor Area -->
+    
+        <div class="sponsor-logos" style="width: inherit">
+            <div class="sponsor-header">
+                Generously Sponsored By:
+            </div>
+
+            <div class="carousel slide sponsor-images">
+                <div class="carousel-inner" style="height: 80px">
+                    
+                        <div class="item">
+                            <a href="https://www.tmctrans.com/" target="_blank">
+                                <img class="item  center-block" id="sponsor_1" src="./index_files/thumbnail_OFFICIAL-TmcBlackWhite_EO_verifiedcolors.png" height="" style="margin: auto;None" alt="TMC">
+                            </a>
+                        </div>
+                    
+                        <div class="item active">
+                            <a href="https://www.pwc.com/" target="_blank">
+                                <img class="item  center-block" id="sponsor_2" src="./index_files/PricewaterhouseCoopers_Logo.transparent.png" height="" style="margin: auto;None" alt="PWC">
+                            </a>
+                        </div>
+                    
+                        <div class="item">
+                            <a href="https://www.collinsaerospace.com/" target="_blank">
+                                <img class="item  center-block" id="sponsor_3" src="./index_files/Collins_Aerospace_logo_stack_k_300.png" height="" style="margin: auto;None" alt="Collins">
+                            </a>
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+    
+</div>
+
+
+
+
+
+<div id="content" style="min-height: 906px;">
+     
+        <div id="content-header">
+            <h1>Anomaly Overview</h1>
+
+            <div>
+                
+                <div class="btn-group" style="width: auto;">
+
+                    
+                        
+<a class="btn btn-default btn-large dropdown-toggle" data-toggle="dropdown" href="http://localhost/blue/anomalies/#">Messages <span class="label label-important">24</span></a>
+    <ul class="dropdown-menu" id="message-dropdown">
+    
+        <li class="message-item">
+            <a href="http://localhost/goto_message/9063/">
+                <span class="message-info">New Anomaly!</span><br>
+                <span>Heartbeat</span>
+            </a>
+        </li>
+    
+        <li class="message-item">
+            <a href="http://localhost/goto_message/9467/">
+                <span class="message-info">New Anomaly!</span><br>
+                <span>Buckets of tears</span>
+            </a>
+        </li>
+    
+        <li class="message-item">
+            <a href="http://localhost/goto_message/9222/">
+                <span class="message-info">New Anomaly!</span><br>
+                <span>Honeycombs</span>
+            </a>
+        </li>
+    
+        <li class="message-item">
+            <a href="http://localhost/goto_message/9115/">
+                <span class="message-info">New Anomaly!</span><br>
+                <span>Tour de force</span>
+            </a>
+        </li>
+    
+        <li class="message-item">
+            <a href="http://localhost/goto_message/9356/">
+                <span class="message-info">New Anomaly!</span><br>
+                <span>Guess My Age!</span>
+            </a>
+        </li>
+    
+        <li class="message-item">
+            <a href="http://localhost/goto_message/9169/">
+                <span class="message-info">New Anomaly!</span><br>
+                <span>A Mathematician's Defense</span>
+            </a>
+        </li>
+    
+        <li class="message-item">
+            <a href="http://localhost/goto_message/9280/">
+                <span class="message-info">New Anomaly!</span><br>
+                <span>Conspiracy!!!!!!</span>
+            </a>
+        </li>
+    
+        <li class="message-item">
+            <a href="http://localhost/goto_message/9552/">
+                <span class="message-info">New Anomaly!</span><br>
+                <span>Passwords where?</span>
+            </a>
+        </li>
+    
+        <li class="message-item">
+            <a href="http://localhost/goto_message/9609/">
+                <span class="message-info">New Anomaly!</span><br>
+                <span>Help me with my Homework 1</span>
+            </a>
+        </li>
+    
+        <li class="message-item">
+            <a href="http://localhost/goto_message/9666/">
+                <span class="message-info">New Anomaly!</span><br>
+                <span>Port?</span>
+            </a>
+        </li>
+    
+        <li class="message-item">
+            <a href="http://localhost/goto_message/9723/">
+                <span class="message-info">New Anomaly!</span><br>
+                <span>Cypher...</span>
+            </a>
+        </li>
+    
+        <li class="message-item">
+            <a href="http://localhost/goto_message/9780/">
+                <span class="message-info">New Anomaly!</span><br>
+                <span>Help me with my Homework 2</span>
+            </a>
+        </li>
+    
+        <li class="message-item">
+            <a href="http://localhost/goto_message/9837/">
+                <span class="message-info">New Anomaly!</span><br>
+                <span>ababababababababababababab</span>
+            </a>
+        </li>
+    
+        <li class="message-item">
+            <a href="http://localhost/goto_message/9950/">
+                <span class="message-info">New Anomaly!</span><br>
+                <span>Crypto Guess!</span>
+            </a>
+        </li>
+    
+        <li class="message-item">
+            <a href="http://localhost/goto_message/10007/">
+                <span class="message-info">New Anomaly!</span><br>
+                <span>More Hashes!</span>
+            </a>
+        </li>
+    
+        <li class="message-item">
+            <a href="http://localhost/goto_message/10143/">
+                <span class="message-info">New Anomaly!</span><br>
+                <span>A message to all</span>
+            </a>
+        </li>
+    
+        <li class="message-item">
+            <a href="http://localhost/goto_message/10401/">
+                <span class="message-info">New Anomaly!</span><br>
+                <span>Scramble</span>
+            </a>
+        </li>
+    
+        <li class="message-item">
+            <a href="http://localhost/goto_message/10200/">
+                <span class="message-info">New Anomaly!</span><br>
+                <span>Decryption is fun!</span>
+            </a>
+        </li>
+    
+        <li class="message-item">
+            <a href="http://localhost/goto_message/10257/">
+                <span class="message-info">New Anomaly!</span><br>
+                <span>Do a Red Team</span>
+            </a>
+        </li>
+    
+        <li class="message-item">
+            <a href="http://localhost/goto_message/10458/">
+                <span class="message-info">New Anomaly!</span><br>
+                <span>Looking under the mask</span>
+            </a>
+        </li>
+    
+        <li class="message-item">
+            <a href="http://localhost/goto_message/10515/">
+                <span class="message-info">New Anomaly!</span><br>
+                <span>Hotel Conundrum</span>
+            </a>
+        </li>
+    
+        <li class="message-item">
+            <a href="http://localhost/goto_message/10587/">
+                <span class="message-info">New Anomaly!</span><br>
+                <span>Handshakes!</span>
+            </a>
+        </li>
+    
+        <li class="message-item">
+            <a href="http://localhost/goto_message/10644/">
+                <span class="message-info">New Anomaly!</span><br>
+                <span>Research</span>
+            </a>
+        </li>
+    
+        <li class="message-item">
+            <a href="http://localhost/goto_message/10701/">
+                <span class="message-info">New Anomaly!</span><br>
+                <span>PDF</span>
+            </a>
+        </li>
+    
+        <li class="divider"></li>
+        <li><a href="http://localhost/messages/">See All Messages</a></li>
+    </ul>
+
+                        <a class="btn btn-default btn-large" href="http://localhost/logout/">Logout</a>
+                    
+                </div>
+            </div>
+        </div>
+        
+
+
+        
+
+        <div id="breadcrumb">
+            
+            <a href="http://localhost/">Home</a><a href="http://localhost/dashboard">Team 5 Dashboard</a><a href="http://localhost/blue/anomalies/" class="current">Anomaly Overview</a>
+            
+                <span class="pull-right" style="margin-top: 7px; margin-right: 20px">Logged in as: chrisleonard</span>
+            
+        </div>
+
+        <!-- Debug bar to see what you are logged in as -->
+        
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+
+                    
+
+    <div class="widget-box page-widget">
+        <div class="widget-title">
+        <span class="icon">
+            <i class="icon-asterisk"></i>
+        </span>
+            <h5>Anomalies</h5>
+        </div>
+        <div class="widget-content">
+            <table class="table table-bordered table-fixed-header">
+
+                <thead>
+                    <tr><th>Name</th>
+                    <th>Score</th>
+                    <th>Expire Time</th>
+                    <th>Required</th>
+                    <th>Status</th>
+                    <th style="width: 200px">Actions</th>
+                </tr></thead>
+
+                <tbody>
+                
+                    <tr>
+                        <td><a href="http://localhost/blue/anomalies/362/">Memes</a></td>
+                        <td>1</td>
+                        <td>03:00 PM</td>
+                        <td>False</td>
+                        <td>Graded</td>
+                        <td><form action="http://localhost/blue/anomalies/362/accept_decline/?return_url=/blue/anomalies/" method="POST"><input type="hidden" name="csrfmiddlewaretoken" value="gPH4GSho6jLvmKTKCTBm5ZhM0PPOcwbOFgV8Hn2FwtJXbb7Q6YnwzZ8HbS0z3eyH"><div class="btn-group"><input class="btn btn-primary disabled" type="submit" name="accept_status" value="Accept" disabled="disabled"><input class="btn btn-danger disabled" type="submit" name="accept_status" value="Decline" disabled="disabled"></div></form></td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="http://localhost/blue/anomalies/357/">Coding 1</a></td>
+                        <td>10</td>
+                        <td>03:00 PM</td>
+                        <td>False</td>
+                        <td>Graded</td>
+                        <td><form action="http://localhost/blue/anomalies/357/accept_decline/?return_url=/blue/anomalies/" method="POST"><input type="hidden" name="csrfmiddlewaretoken" value="Nvyy2KKCDeQ3Woa4XJFIU0pMzq84dFJecWMC3fvT3oOvLPoarOrSo0gHKtjP4n67"><div class="btn-group"><input class="btn btn-primary disabled" type="submit" name="accept_status" value="Accept" disabled="disabled"><input class="btn btn-danger disabled" type="submit" name="accept_status" value="Decline" disabled="disabled"></div></form></td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="http://localhost/blue/anomalies/360/">Send the Red Team Memes!</a></td>
+                        <td>1</td>
+                        <td>03:00 PM</td>
+                        <td>False</td>
+                        <td>Graded</td>
+                        <td><form action="http://localhost/blue/anomalies/360/accept_decline/?return_url=/blue/anomalies/" method="POST"><input type="hidden" name="csrfmiddlewaretoken" value="YL2MaswMVDH5RpTwiu0eqy1fn6TLrPWIncgQbXh3lNFxGQ7CMzMoUySay94wixjB"><div class="btn-group"><input class="btn btn-primary disabled" type="submit" name="accept_status" value="Accept" disabled="disabled"><input class="btn btn-danger disabled" type="submit" name="accept_status" value="Decline" disabled="disabled"></div></form></td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="http://localhost/blue/anomalies/351/">Handshakes!</a></td>
+                        <td>5</td>
+                        <td>02:00 PM</td>
+                        <td>False</td>
+                        <td>Graded</td>
+                        <td><form action="http://localhost/blue/anomalies/351/accept_decline/?return_url=/blue/anomalies/" method="POST"><input type="hidden" name="csrfmiddlewaretoken" value="q4IBIXwOUBNM2F6fYIXVcBM857K6g3qOPvWFJsh5kLLeR6klsNJ5GBD3gaVR7LNH"><div class="btn-group"><input class="btn btn-primary disabled" type="submit" name="accept_status" value="Accept" disabled="disabled"><input class="btn btn-danger disabled" type="submit" name="accept_status" value="Decline" disabled="disabled"></div></form></td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="http://localhost/blue/anomalies/355/">Research</a></td>
+                        <td></td>
+                        <td>03:00 PM</td>
+                        <td>False</td>
+                        <td>Awaiting Submission</td>
+                        <td><form action="http://localhost/blue/anomalies/355/accept_decline/?return_url=/blue/anomalies/" method="POST"><input type="hidden" name="csrfmiddlewaretoken" value="ODnklciNwLdpYmQr4atypyTRsixuvXIYd4BomH34WVbRNN4xyffITyKMDlIfmF5R"><div class="btn-group"><input class="btn btn-primary disabled" type="submit" name="accept_status" value="Accept" disabled="disabled"><input class="btn btn-danger disabled" type="submit" name="accept_status" value="Decline" disabled="disabled"></div></form></td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="http://localhost/blue/anomalies/356/">PDF</a></td>
+                        <td></td>
+                        <td>02:30 PM</td>
+                        <td>False</td>
+                        <td>Awaiting Submission</td>
+                        <td><form action="http://localhost/blue/anomalies/356/accept_decline/?return_url=/blue/anomalies/" method="POST"><input type="hidden" name="csrfmiddlewaretoken" value="78SWQYbfTUy7Nn9Oq34f5sgyEIepqcCfwz60RtWwj4wzCOnUU8Qpzs7tPLpahUZ8"><div class="btn-group"><input class="btn btn-primary disabled" type="submit" name="accept_status" value="Accept" disabled="disabled"><input class="btn btn-danger disabled" type="submit" name="accept_status" value="Decline" disabled="disabled"></div></form></td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="http://localhost/blue/anomalies/359/">Make us merrry</a></td>
+                        <td>2</td>
+                        <td>02:20 PM</td>
+                        <td>False</td>
+                        <td>Graded</td>
+                        <td><form action="http://localhost/blue/anomalies/359/accept_decline/?return_url=/blue/anomalies/" method="POST"><input type="hidden" name="csrfmiddlewaretoken" value="lZBoPh7jPSzYESOBAaJYNctpGNhhxFIgKqPsQMSAf2xqtj2H4fv8hckkRQs2on59"><div class="btn-group"><input class="btn btn-primary disabled" type="submit" name="accept_status" value="Accept" disabled="disabled"><input class="btn btn-danger disabled" type="submit" name="accept_status" value="Decline" disabled="disabled"></div></form></td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="http://localhost/blue/anomalies/354/">Scramble</a></td>
+                        <td>5</td>
+                        <td>02:00 PM</td>
+                        <td>False</td>
+                        <td>Graded</td>
+                        <td><form action="http://localhost/blue/anomalies/354/accept_decline/?return_url=/blue/anomalies/" method="POST"><input type="hidden" name="csrfmiddlewaretoken" value="cZgDOQ2iRbOFIRYoZBePwML1U01RjhGhBquHPlNzhlM7xicutG0Z0MCW53cCaZ3a"><div class="btn-group"><input class="btn btn-primary disabled" type="submit" name="accept_status" value="Accept" disabled="disabled"><input class="btn btn-danger disabled" type="submit" name="accept_status" value="Decline" disabled="disabled"></div></form></td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="http://localhost/blue/anomalies/352/">Looking under the mask</a></td>
+                        <td>5</td>
+                        <td>02:00 PM</td>
+                        <td>False</td>
+                        <td>Graded</td>
+                        <td><form action="http://localhost/blue/anomalies/352/accept_decline/?return_url=/blue/anomalies/" method="POST"><input type="hidden" name="csrfmiddlewaretoken" value="MXdFhbOy6pWtzwsHmqJlaaBicG6u1mxCborJiGzPwzUVoXGNQvvvEasdnJhfS4Uv"><div class="btn-group"><input class="btn btn-primary disabled" type="submit" name="accept_status" value="Accept" disabled="disabled"><input class="btn btn-danger disabled" type="submit" name="accept_status" value="Decline" disabled="disabled"></div></form></td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="http://localhost/blue/anomalies/361/">Terror of the sea</a></td>
+                        <td>15</td>
+                        <td>02:30 PM</td>
+                        <td>False</td>
+                        <td>Graded</td>
+                        <td><form action="http://localhost/blue/anomalies/361/accept_decline/?return_url=/blue/anomalies/" method="POST"><input type="hidden" name="csrfmiddlewaretoken" value="BrIWJuR0A6DEsQVLaGrvDwedeyuZvfHF0SW0KZCh0gB6hh9RELdF7w58pBFKmX4y"><div class="btn-group"><input class="btn btn-primary disabled" type="submit" name="accept_status" value="Accept" disabled="disabled"><input class="btn btn-danger disabled" type="submit" name="accept_status" value="Decline" disabled="disabled"></div></form></td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="http://localhost/blue/anomalies/353/">Hotel Conundrum</a></td>
+                        <td>10</td>
+                        <td>02:00 PM</td>
+                        <td>False</td>
+                        <td>Graded</td>
+                        <td><form action="http://localhost/blue/anomalies/353/accept_decline/?return_url=/blue/anomalies/" method="POST"><input type="hidden" name="csrfmiddlewaretoken" value="Bkqd54NmSisrxrTR9JdAh9u8brRFHRuW0LEh6zyDisqTmS7XDOZKL9l3mu2qyzRP"><div class="btn-group"><input class="btn btn-primary disabled" type="submit" name="accept_status" value="Accept" disabled="disabled"><input class="btn btn-danger disabled" type="submit" name="accept_status" value="Decline" disabled="disabled"></div></form></td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="http://localhost/blue/anomalies/349/">Remembering History</a></td>
+                        <td></td>
+                        <td>01:00 PM</td>
+                        <td>False</td>
+                        <td>Awaiting Acceptance</td>
+                        <td><form action="http://localhost/blue/anomalies/349/accept_decline/?return_url=/blue/anomalies/" method="POST"><input type="hidden" name="csrfmiddlewaretoken" value="o4tysPsvgThHglxRR5s5zkSZ1hNXQglxNvHCtkdMG3f95MLXlaef3kJUckYIHYIq"><div class="btn-group"><input class="btn btn-primary disabled" type="submit" name="accept_status" value="Accept" disabled="disabled"><input class="btn btn-danger disabled" type="submit" name="accept_status" value="Decline" disabled="disabled"></div></form></td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="http://localhost/blue/anomalies/348/">Buggy Print</a></td>
+                        <td>5</td>
+                        <td>12:30 PM</td>
+                        <td>False</td>
+                        <td>Graded</td>
+                        <td><form action="http://localhost/blue/anomalies/348/accept_decline/?return_url=/blue/anomalies/" method="POST"><input type="hidden" name="csrfmiddlewaretoken" value="qk4qQVZHRdNPdBTLZcHX7l6tM4KTlRWIPLiuRqKYhnLh227Rtht7BlXoX7VEczjB"><div class="btn-group"><input class="btn btn-primary disabled" type="submit" name="accept_status" value="Accept" disabled="disabled"><input class="btn btn-danger disabled" type="submit" name="accept_status" value="Decline" disabled="disabled"></div></form></td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="http://localhost/blue/anomalies/347/">Collective Brainpower Investment Strategy</a></td>
+                        <td>0</td>
+                        <td>02:30 PM</td>
+                        <td>False</td>
+                        <td>Graded</td>
+                        <td><form action="http://localhost/blue/anomalies/347/accept_decline/?return_url=/blue/anomalies/" method="POST"><input type="hidden" name="csrfmiddlewaretoken" value="j7CNZgaL72hHnbE9UF8d5L9g2kGvPWQbIyQR0LV2xcf9cCSfoKUnzL0bdnRgGEd4"><div class="btn-group"><input class="btn btn-primary disabled" type="submit" name="accept_status" value="Accept" disabled="disabled"><input class="btn btn-danger disabled" type="submit" name="accept_status" value="Decline" disabled="disabled"></div></form></td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="http://localhost/blue/anomalies/350/">Coding Knowlege?</a></td>
+                        <td>1</td>
+                        <td>12:30 PM</td>
+                        <td>False</td>
+                        <td>Graded</td>
+                        <td><form action="http://localhost/blue/anomalies/350/accept_decline/?return_url=/blue/anomalies/" method="POST"><input type="hidden" name="csrfmiddlewaretoken" value="B6oWk26ho1PNJCBvT94NIzv4US4lmCtB0xC0lxRyObNfy3PBneQXczmZ5Vf6dkQu"><div class="btn-group"><input class="btn btn-primary disabled" type="submit" name="accept_status" value="Accept" disabled="disabled"><input class="btn btn-danger disabled" type="submit" name="accept_status" value="Decline" disabled="disabled"></div></form></td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="http://localhost/blue/anomalies/346/">Rank the White Team!</a></td>
+                        <td></td>
+                        <td>01:30 PM</td>
+                        <td>False</td>
+                        <td>Awaiting Acceptance</td>
+                        <td><form action="http://localhost/blue/anomalies/346/accept_decline/?return_url=/blue/anomalies/" method="POST"><input type="hidden" name="csrfmiddlewaretoken" value="iLFbrcswx9A6QmqT5cXKP1hAEDQbGaWkHcTfsHdNXjyyFNEZzhJUj18vPG1WxSjd"><div class="btn-group"><input class="btn btn-primary disabled" type="submit" name="accept_status" value="Accept" disabled="disabled"><input class="btn btn-danger disabled" type="submit" name="accept_status" value="Decline" disabled="disabled"></div></form></td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="http://localhost/blue/anomalies/337/">Decryption is fun!</a></td>
+                        <td>20</td>
+                        <td>12:00 PM</td>
+                        <td>False</td>
+                        <td>Graded</td>
+                        <td><form action="http://localhost/blue/anomalies/337/accept_decline/?return_url=/blue/anomalies/" method="POST"><input type="hidden" name="csrfmiddlewaretoken" value="tYQOosygMKv5t5NqwQwcq2tZ4B2hlFzQSp4SpXjxcUtxiw1w0VimU2kUfEd2cnWJ"><div class="btn-group"><input class="btn btn-primary disabled" type="submit" name="accept_status" value="Accept" disabled="disabled"><input class="btn btn-danger disabled" type="submit" name="accept_status" value="Decline" disabled="disabled"></div></form></td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="http://localhost/blue/anomalies/332/">Do a Red Team</a></td>
+                        <td></td>
+                        <td>11:50 AM</td>
+                        <td>False</td>
+                        <td>Awaiting Acceptance</td>
+                        <td><form action="http://localhost/blue/anomalies/332/accept_decline/?return_url=/blue/anomalies/" method="POST"><input type="hidden" name="csrfmiddlewaretoken" value="dJvqePcFkQqddbbdv1PIsTtcIzNAJdtICaJufkXWK0oF2CpjZ6BSWTk7TCYlAVQB"><div class="btn-group"><input class="btn btn-primary disabled" type="submit" name="accept_status" value="Accept" disabled="disabled"><input class="btn btn-danger disabled" type="submit" name="accept_status" value="Decline" disabled="disabled"></div></form></td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="http://localhost/blue/anomalies/344/">A message to all</a></td>
+                        <td>5</td>
+                        <td>12:00 PM</td>
+                        <td>False</td>
+                        <td>Graded</td>
+                        <td><form action="http://localhost/blue/anomalies/344/accept_decline/?return_url=/blue/anomalies/" method="POST"><input type="hidden" name="csrfmiddlewaretoken" value="tHN9CUmQw9XCZsDyvHKX3uw4iOPiGFqfS81dDp77WjV4OTREZMw7xunZtR03xnN8"><div class="btn-group"><input class="btn btn-primary disabled" type="submit" name="accept_status" value="Accept" disabled="disabled"><input class="btn btn-danger disabled" type="submit" name="accept_status" value="Decline" disabled="disabled"></div></form></td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="http://localhost/blue/anomalies/343/">More Hashes!</a></td>
+                        <td>5</td>
+                        <td>11:30 AM</td>
+                        <td>False</td>
+                        <td>Graded</td>
+                        <td><form action="http://localhost/blue/anomalies/343/accept_decline/?return_url=/blue/anomalies/" method="POST"><input type="hidden" name="csrfmiddlewaretoken" value="3OUnEZH6vmVY0dFiIITPGq0YUr7y0YaKsf8rFusnVwTqPETocNFZaqRT5uijRGxD"><div class="btn-group"><input class="btn btn-primary disabled" type="submit" name="accept_status" value="Accept" disabled="disabled"><input class="btn btn-danger disabled" type="submit" name="accept_status" value="Decline" disabled="disabled"></div></form></td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="http://localhost/blue/anomalies/340/">Crypto Guess!</a></td>
+                        <td>3</td>
+                        <td>12:30 PM</td>
+                        <td>False</td>
+                        <td>Graded</td>
+                        <td><form action="http://localhost/blue/anomalies/340/accept_decline/?return_url=/blue/anomalies/" method="POST"><input type="hidden" name="csrfmiddlewaretoken" value="zUQMcPdGQ5GQui71lu0aaIHoBAz5NbhUYl4QdkYXgfEijJl7PzMkEIyjMDKQETEN"><div class="btn-group"><input class="btn btn-primary disabled" type="submit" name="accept_status" value="Accept" disabled="disabled"><input class="btn btn-danger disabled" type="submit" name="accept_status" value="Decline" disabled="disabled"></div></form></td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="http://localhost/blue/anomalies/342/">Decryption</a></td>
+                        <td>10</td>
+                        <td>11:30 AM</td>
+                        <td>False</td>
+                        <td>Graded</td>
+                        <td><form action="http://localhost/blue/anomalies/342/accept_decline/?return_url=/blue/anomalies/" method="POST"><input type="hidden" name="csrfmiddlewaretoken" value="nwmGNqvirOV2t9gPTRNvNCBiGcPlxiz9MXAKOVgzRYTuiAuVnWzFhCsdRf06o0W2"><div class="btn-group"><input class="btn btn-primary disabled" type="submit" name="accept_status" value="Accept" disabled="disabled"><input class="btn btn-danger disabled" type="submit" name="accept_status" value="Decline" disabled="disabled"></div></form></td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="http://localhost/blue/anomalies/341/">Cypher...</a></td>
+                        <td></td>
+                        <td>11:30 AM</td>
+                        <td>False</td>
+                        <td>Awaiting Acceptance</td>
+                        <td><form action="http://localhost/blue/anomalies/341/accept_decline/?return_url=/blue/anomalies/" method="POST"><input type="hidden" name="csrfmiddlewaretoken" value="ekLZ6eWj1pzkti2OTrDoibmlCKZY4lm6DLZ37JHArzxMiJgUnwpyMbdgNNaJV3JZ"><div class="btn-group"><input class="btn btn-primary disabled" type="submit" name="accept_status" value="Accept" disabled="disabled"><input class="btn btn-danger disabled" type="submit" name="accept_status" value="Decline" disabled="disabled"></div></form></td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="http://localhost/blue/anomalies/339/">Help me with my Homework 2</a></td>
+                        <td></td>
+                        <td>11:20 AM</td>
+                        <td>False</td>
+                        <td>Awaiting Acceptance</td>
+                        <td><form action="http://localhost/blue/anomalies/339/accept_decline/?return_url=/blue/anomalies/" method="POST"><input type="hidden" name="csrfmiddlewaretoken" value="fMULVZ40xvhotXEhOoYmyVWL5q8uRpSQEd8PWuPhXFfQioSnitKw2VNGgtjfI7fJ"><div class="btn-group"><input class="btn btn-primary disabled" type="submit" name="accept_status" value="Accept" disabled="disabled"><input class="btn btn-danger disabled" type="submit" name="accept_status" value="Decline" disabled="disabled"></div></form></td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="http://localhost/blue/anomalies/338/">Help me with my Homework 1</a></td>
+                        <td>5</td>
+                        <td>11:00 AM</td>
+                        <td>False</td>
+                        <td>Graded</td>
+                        <td><form action="http://localhost/blue/anomalies/338/accept_decline/?return_url=/blue/anomalies/" method="POST"><input type="hidden" name="csrfmiddlewaretoken" value="wr4hO6tJ8fAXKpbmIsaXu5hz0KvmjZ7VVSilPBe0ypypzQpscxW7Y58ubNG7aHuO"><div class="btn-group"><input class="btn btn-primary disabled" type="submit" name="accept_status" value="Accept" disabled="disabled"><input class="btn btn-danger disabled" type="submit" name="accept_status" value="Decline" disabled="disabled"></div></form></td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="http://localhost/blue/anomalies/334/">Passwords where?</a></td>
+                        <td>5</td>
+                        <td>11:50 AM</td>
+                        <td>False</td>
+                        <td>Graded</td>
+                        <td><form action="http://localhost/blue/anomalies/334/accept_decline/?return_url=/blue/anomalies/" method="POST"><input type="hidden" name="csrfmiddlewaretoken" value="BRGmPzbhP7EZOMLrAMjnyLCM2dgDg5Ot0iUqQ4WyfhCrDdZx4R5x2LtHdgro7Nbm"><div class="btn-group"><input class="btn btn-primary disabled" type="submit" name="accept_status" value="Accept" disabled="disabled"><input class="btn btn-danger disabled" type="submit" name="accept_status" value="Decline" disabled="disabled"></div></form></td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="http://localhost/blue/anomalies/331/">Port?</a></td>
+                        <td>5</td>
+                        <td>10:50 AM</td>
+                        <td>False</td>
+                        <td>Graded</td>
+                        <td><form action="http://localhost/blue/anomalies/331/accept_decline/?return_url=/blue/anomalies/" method="POST"><input type="hidden" name="csrfmiddlewaretoken" value="dt0Bkh517QdoejYVmmRujAe9ssb8t4UJCUeFlMQix0bQ3Kc1QrDENA54DvmTkMhC"><div class="btn-group"><input class="btn btn-primary disabled" type="submit" name="accept_status" value="Accept" disabled="disabled"><input class="btn btn-danger disabled" type="submit" name="accept_status" value="Decline" disabled="disabled"></div></form></td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="http://localhost/blue/anomalies/328/">I need some Coffee..</a></td>
+                        <td></td>
+                        <td>10:40 AM</td>
+                        <td>False</td>
+                        <td>Awaiting Acceptance</td>
+                        <td><form action="http://localhost/blue/anomalies/328/accept_decline/?return_url=/blue/anomalies/" method="POST"><input type="hidden" name="csrfmiddlewaretoken" value="YijybLQSogcL9cRFc6q6MWVSwvDsOWJqnJxCcgB9OqadYD5LGbcggWMNHyOdFE6j"><div class="btn-group"><input class="btn btn-primary disabled" type="submit" name="accept_status" value="Accept" disabled="disabled"><input class="btn btn-danger disabled" type="submit" name="accept_status" value="Decline" disabled="disabled"></div></form></td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="http://localhost/blue/anomalies/336/">Do a White Team!</a></td>
+                        <td>15</td>
+                        <td>02:00 PM</td>
+                        <td>False</td>
+                        <td>Graded</td>
+                        <td><form action="http://localhost/blue/anomalies/336/accept_decline/?return_url=/blue/anomalies/" method="POST"><input type="hidden" name="csrfmiddlewaretoken" value="NKWwXM7hDEsvJ4smo1oFJ5ZAGlYgD82JcbaAYhSy3OqXyvGsS6aPd5QvRo91uQpC"><div class="btn-group"><input class="btn btn-primary disabled" type="submit" name="accept_status" value="Accept" disabled="disabled"><input class="btn btn-danger disabled" type="submit" name="accept_status" value="Decline" disabled="disabled"></div></form></td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="http://localhost/blue/anomalies/327/">Buckets of tears</a></td>
+                        <td>5</td>
+                        <td>10:30 AM</td>
+                        <td>False</td>
+                        <td>Graded</td>
+                        <td><form action="http://localhost/blue/anomalies/327/accept_decline/?return_url=/blue/anomalies/" method="POST"><input type="hidden" name="csrfmiddlewaretoken" value="pdLZFP9wtK6vPs4YDD8CGKXN4UHz1NjSOEZ3GkUNTU4XETi47IUMaKOIfXSkSvGL"><div class="btn-group"><input class="btn btn-primary disabled" type="submit" name="accept_status" value="Accept" disabled="disabled"><input class="btn btn-danger disabled" type="submit" name="accept_status" value="Decline" disabled="disabled"></div></form></td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="http://localhost/blue/anomalies/322/">Guess My Age!</a></td>
+                        <td>0</td>
+                        <td>10:15 AM</td>
+                        <td>False</td>
+                        <td>Graded</td>
+                        <td><form action="http://localhost/blue/anomalies/322/accept_decline/?return_url=/blue/anomalies/" method="POST"><input type="hidden" name="csrfmiddlewaretoken" value="0NcpCGRDTfOded7GD5nkOQ0LS1MWCvkmpeqtDbCUjpMF3ElM7a9uiQRG34XHtdHf"><div class="btn-group"><input class="btn btn-primary disabled" type="submit" name="accept_status" value="Accept" disabled="disabled"><input class="btn btn-danger disabled" type="submit" name="accept_status" value="Decline" disabled="disabled"></div></form></td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="http://localhost/blue/anomalies/326/">Riddle Me this!</a></td>
+                        <td>10</td>
+                        <td>10:00 AM</td>
+                        <td>False</td>
+                        <td>Graded</td>
+                        <td><form action="http://localhost/blue/anomalies/326/accept_decline/?return_url=/blue/anomalies/" method="POST"><input type="hidden" name="csrfmiddlewaretoken" value="YQ5OQqC4WGUwpnaTNvIGWcdBWCCfxZlfnhjSRVnlmQSYeOoZhAuQqc4w7FN0oHI8"><div class="btn-group"><input class="btn btn-primary disabled" type="submit" name="accept_status" value="Accept" disabled="disabled"><input class="btn btn-danger disabled" type="submit" name="accept_status" value="Decline" disabled="disabled"></div></form></td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="http://localhost/blue/anomalies/318/">Conspiracy!!!!!!</a></td>
+                        <td></td>
+                        <td>09:30 AM</td>
+                        <td>False</td>
+                        <td>Awaiting Submission</td>
+                        <td><form action="http://localhost/blue/anomalies/318/accept_decline/?return_url=/blue/anomalies/" method="POST"><input type="hidden" name="csrfmiddlewaretoken" value="RvkyLOrwxgqvFAblE1ZysuVQGRtuW7eegWyCMjcNXqoXu1pr86LIWuMLRUEfNPB7"><div class="btn-group"><input class="btn btn-primary disabled" type="submit" name="accept_status" value="Accept" disabled="disabled"><input class="btn btn-danger disabled" type="submit" name="accept_status" value="Decline" disabled="disabled"></div></form></td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="http://localhost/blue/anomalies/324/">Honeycombs</a></td>
+                        <td>10</td>
+                        <td>10:15 AM</td>
+                        <td>False</td>
+                        <td>Graded</td>
+                        <td><form action="http://localhost/blue/anomalies/324/accept_decline/?return_url=/blue/anomalies/" method="POST"><input type="hidden" name="csrfmiddlewaretoken" value="E79K4mmtgDETIquUUB6VtwUPzc1ZEqB63ynO5R7KGNClxRI0oGS5XwLKKfcKv8YZ"><div class="btn-group"><input class="btn btn-primary disabled" type="submit" name="accept_status" value="Accept" disabled="disabled"><input class="btn btn-danger disabled" type="submit" name="accept_status" value="Decline" disabled="disabled"></div></form></td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="http://localhost/blue/anomalies/317/">Tour de force</a></td>
+                        <td></td>
+                        <td>08:30 AM</td>
+                        <td>False</td>
+                        <td>Awaiting Acceptance</td>
+                        <td><form action="http://localhost/blue/anomalies/317/accept_decline/?return_url=/blue/anomalies/" method="POST"><input type="hidden" name="csrfmiddlewaretoken" value="brKF2T8DVWF1cj64PeKREVulgjfLcvaTASYJ3oTUl6Dt1Kkajjw18Vlgrmqw3dxM"><div class="btn-group"><input class="btn btn-primary disabled" type="submit" name="accept_status" value="Accept" disabled="disabled"><input class="btn btn-danger disabled" type="submit" name="accept_status" value="Decline" disabled="disabled"></div></form></td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="http://localhost/blue/anomalies/323/">Reverse Engineering 1</a></td>
+                        <td>15</td>
+                        <td>09:30 AM</td>
+                        <td>False</td>
+                        <td>Graded</td>
+                        <td><form action="http://localhost/blue/anomalies/323/accept_decline/?return_url=/blue/anomalies/" method="POST"><input type="hidden" name="csrfmiddlewaretoken" value="5pjXxvOMw2jKFMYr06xIRpkRWrX130anuQx1y0z3WchcudcxubjSlpbM7u8MUIxg"><div class="btn-group"><input class="btn btn-primary disabled" type="submit" name="accept_status" value="Accept" disabled="disabled"><input class="btn btn-danger disabled" type="submit" name="accept_status" value="Decline" disabled="disabled"></div></form></td>
+                    </tr>
+                
+                    <tr>
+                        <td><a href="http://localhost/blue/anomalies/315/">Heartbeat</a></td>
+                        <td></td>
+                        <td>08:15 AM</td>
+                        <td>False</td>
+                        <td>Awaiting Submission</td>
+                        <td><form action="http://localhost/blue/anomalies/315/accept_decline/?return_url=/blue/anomalies/" method="POST"><input type="hidden" name="csrfmiddlewaretoken" value="5AgQPPdAtEiznRpfO2VPGTsG9vtkEN4Wu1uUQkYRTOg1ciDli7HZaTjBkyE5vvrP"><div class="btn-group"><input class="btn btn-primary disabled" type="submit" name="accept_status" value="Accept" disabled="disabled"><input class="btn btn-danger disabled" type="submit" name="accept_status" value="Decline" disabled="disabled"></div></form></td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+
+        
+        
+        
+        
+        
+
+        <div class="modal" id="delete-modal" tabindex="-1" role="dialog" aria-labelledby="delete-modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h3>Delete </h3>
+            </div>
+            <form method="POST">
+                <div class="modal-body">
+                    Are you sure you want to delete ""?
+                    <input type="hidden" name="csrfmiddlewaretoken" value="NccW6HS8oWLt7kmZ3a2eL6IvUvhk2kZFcDq07cDpO6JVWLA5xfOof6zq5ys5T2my">
+                </div>
+                <div class="modal-footer">
+                    <input type="hidden" name="_method" value="delete">
+                    <input type="submit" class="btn btn-danger" value="Delete">
+                    <button class="btn btn-default" data-dismiss="modal" aria-hidden="true">Close</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+    
+</div>
+
+<script src="./index_files/output.e94d0ddd61c0.js.download"></script>
+
+
+    <script src="./index_files/iscore-notifications.js.download"></script>
+
+
+<script>
+    hljs.initHighlightingOnLoad();
+
+    $(document).ready(function () {
+
+        
+            $('.carousel').carousel({
+                interval: 3000});
+        
+
+        //setup content height
+        $(window).resize(function () {
+            var new_height = $(window).height() - 55;
+            if (new_height < 675) new_height = 675;
+            $("#content").css('min-height', new_height);
+        });
+
+        $(window).trigger('resize');
+
+        $('input.datepicker-input').datepicker({orientation: "bottom auto"});
+        $('.notifications').each(function () {
+            var that = $(this);
+            var message = that.attr('data-row');
+            var color = that.attr('title');
+            that.notify({
+                message: {text: message},
+                type: color,
+                fadeOut: {enabled: true, delay: 4500}
+            }).show();
+        });
+
+        $('.preview-tab').on('click', function () {
+            var that = $(this);
+            var preview = $(that.attr('href'));
+            var edit = preview.siblings('.tab-pane');
+            var textarea = $('textarea', edit);
+            $('.markdown-content', preview).html(marked(textarea.val()));
+        });
+
+        $('.markdown-content').each(function (i, e) {
+            var item = $(e);
+            item.html(marked(item.html()));
+        });
+    });
+</script>
+
+
+
+
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
+  div.grammarly-desktop-integration {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select:none;
+    user-select:none;
+  }
+
+  div.grammarly-desktop-integration:before {
+    content: attr(data-content);
+  }
+</style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>

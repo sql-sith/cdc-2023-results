@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<!-- saved from url=(0035)http://www.highschoolhackers.com/blue/dns/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>DNS Records - IScorE</title>
+    
+
+    <meta property="og:image" content="/static/img/iscore1_small.png">
+    <meta property="og:title" content="DNS Records">
+    <meta property="og:url" content="http://www.highschoolhackers.com/blue/dns/">
+
+    <link rel="icon" href="http://www.highschoolhackers.com/static/img/favicon.png">
+    <link rel="manifest" href="http://www.highschoolhackers.com/static/manifest.json">
+
+    <link rel="stylesheet" href="./index_files/output.3d0579470055.css" type="text/css">
+
+    
+</head>
+<body data-new-gr-c-s-check-loaded="14.1029.0" data-gr-ext-installed="">
+<input type="hidden" id="applicationServerKey" value="BIl3fUZ225yzs0YYIg4FjdvSfNhs-6Kb7zpDZO9nXel0K6fMdqo-nwYLzfmv0m2bQg3qJyPB9Gi8cc572maWsKw">
+
+
+<div id="header">
+    <a href="http://www.highschoolhackers.com/">
+        
+            <img src="./index_files/iscore1_small.png" alt="IScorE" width="170" style="margin-top: 20px; margin-left: 20px;">
+        
+    </a>
+</div>
+
+<div id="sidebar">
+    <a href="http://www.highschoolhackers.com/blue/dns/#" class="visible-xs"><i class="icon-home"></i> DNS Records</a>
+    <ul style="display: block;">
+        <li class=""><a href="http://www.highschoolhackers.com/"><i class="icon-list"></i>Scoreboard</a></li>
+        <li class="submenu">
+            <a href="http://www.highschoolhackers.com/blue/dns/#"><i class="icon icon-bar-chart"></i><span>Charts &amp; Graphs</span></a>
+            <ul>
+                <li class=""><a href="http://www.highschoolhackers.com/statistics/trends/">Score Trends</a></li>
+                <li class=""><a href="http://www.highschoolhackers.com/statistics/flag/">Flags</a></li>
+                <li class=""><a href="http://www.highschoolhackers.com/statistics/anomalies/">Anomalies</a></li>
+                <li class=""><a href="http://www.highschoolhackers.com/statistics/availability/">Availability</a></li>
+            </ul>
+        </li>
+        <li class=""><a href="http://www.highschoolhackers.com/services/status/"><i class="icon-check"></i>Service Status</a></li>
+        
+            <li class=""><a href="http://www.highschoolhackers.com/red/wiki/"><i class="icon-edit"></i>Red Wiki</a></li>
+        
+        
+
+        
+            <li class=""><a href="http://www.highschoolhackers.com/user_profile/"><i class="icon-user"></i> User Profile</a></li>
+            <li>&nbsp;</li>
+        
+
+        <!-- Blue Team Area -->
+        
+            
+        <li class=""><a href="http://www.highschoolhackers.com/dashboard"><i class="icon-th"></i> Dashboard</a></li>
+        <li class=""><a href="http://www.highschoolhackers.com/blue/tsi/"><i class="icon-credit-card"></i> Team Specific Info</a></li>
+        <li class=""><a href="http://www.highschoolhackers.com/blue/anomalies/"><i class="icon-asterisk"></i> Anomalies</a></li>
+        <li class=""><a href="http://www.highschoolhackers.com/blue/usability/"><i class="icon-check"></i> Usability </a></li>
+        <li class="active"><a href="http://www.highschoolhackers.com/blue/dns/"><i class="icon-wrench"></i> DNS Records</a></li>
+        <li class=""><a href="http://www.highschoolhackers.com/blue/teaminfo/"><i class="icon-pencil"></i> Team Info</a></li>
+        <li class=""><a href="http://www.highschoolhackers.com/blue/download/flags/"><i class="icon-download-alt"></i> Download Flags</a></li>
+        
+            <li class=""><a href="http://www.highschoolhackers.com/reports/team/205/"><i class="icon-list-alt"></i> Score Report</a></li>
+        
+        
+            <li class=""><a href="http://www.highschoolhackers.com/blue/summary"><i class="icon-flag"></i> Red Summary</a></li>
+        
+        
+        
+
+        <!-- Red Team Area -->
+        
+
+        <!-- Green Team Area -->
+        
+
+        <!-- White Team Area -->
+        
+
+        <!-- CDC Admin Area -->
+        
+
+
+    </ul>
+    <!-- Sponsor Area -->
+    
+        <div class="sponsor-logos" style="width: inherit">
+            <div class="sponsor-header">
+                Generously Sponsored By:
+            </div>
+
+            <div class="carousel slide sponsor-images">
+                <div class="carousel-inner" style="height: 80px">
+                    
+                        <div class="item active">
+                            <a href="https://www.tmctrans.com/" target="_blank">
+                                <img class="item  center-block" id="sponsor_1" src="./index_files/thumbnail_OFFICIAL-TmcBlackWhite_EO_verifiedcolors.png" height="" style="margin: auto;None" alt="TMC">
+                            </a>
+                        </div>
+                    
+                        <div class="item">
+                            <a href="https://www.collinsaerospace.com/" target="_blank">
+                                <img class="item  center-block" id="sponsor_3" src="./index_files/Collins_Aerospace_logo_stack_k_300.png" height="" style="margin: auto;None" alt="Collins">
+                            </a>
+                        </div>
+                    
+                        <div class="item">
+                            <a href="https://www.pwc.com/" target="_blank">
+                                <img class="item  center-block" id="sponsor_2" src="./index_files/PricewaterhouseCoopers_Logo.transparent.png" height="" style="margin: auto;None" alt="PWC">
+                            </a>
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+    
+</div>
+
+
+
+
+
+<div id="content" style="min-height: 906px;">
+     
+        <div id="content-header">
+            <h1>DNS Records</h1>
+
+            <div>
+                
+                <div class="btn-group" style="width: auto;">
+
+                    
+                        
+<a class="btn btn-default btn-large dropdown-toggle" data-toggle="dropdown" href="http://www.highschoolhackers.com/blue/dns/#">Messages <span class="label label-important">24</span></a>
+    <ul class="dropdown-menu" id="message-dropdown">
+    
+        <li class="message-item">
+            <a href="http://www.highschoolhackers.com/goto_message/9063/">
+                <span class="message-info">New Anomaly!</span><br>
+                <span>Heartbeat</span>
+            </a>
+        </li>
+    
+        <li class="message-item">
+            <a href="http://www.highschoolhackers.com/goto_message/9467/">
+                <span class="message-info">New Anomaly!</span><br>
+                <span>Buckets of tears</span>
+            </a>
+        </li>
+    
+        <li class="message-item">
+            <a href="http://www.highschoolhackers.com/goto_message/9222/">
+                <span class="message-info">New Anomaly!</span><br>
+                <span>Honeycombs</span>
+            </a>
+        </li>
+    
+        <li class="message-item">
+            <a href="http://www.highschoolhackers.com/goto_message/9115/">
+                <span class="message-info">New Anomaly!</span><br>
+                <span>Tour de force</span>
+            </a>
+        </li>
+    
+        <li class="message-item">
+            <a href="http://www.highschoolhackers.com/goto_message/9356/">
+                <span class="message-info">New Anomaly!</span><br>
+                <span>Guess My Age!</span>
+            </a>
+        </li>
+    
+        <li class="message-item">
+            <a href="http://www.highschoolhackers.com/goto_message/9169/">
+                <span class="message-info">New Anomaly!</span><br>
+                <span>A Mathematician's Defense</span>
+            </a>
+        </li>
+    
+        <li class="message-item">
+            <a href="http://www.highschoolhackers.com/goto_message/9280/">
+                <span class="message-info">New Anomaly!</span><br>
+                <span>Conspiracy!!!!!!</span>
+            </a>
+        </li>
+    
+        <li class="message-item">
+            <a href="http://www.highschoolhackers.com/goto_message/9552/">
+                <span class="message-info">New Anomaly!</span><br>
+                <span>Passwords where?</span>
+            </a>
+        </li>
+    
+        <li class="message-item">
+            <a href="http://www.highschoolhackers.com/goto_message/9609/">
+                <span class="message-info">New Anomaly!</span><br>
+                <span>Help me with my Homework 1</span>
+            </a>
+        </li>
+    
+        <li class="message-item">
+            <a href="http://www.highschoolhackers.com/goto_message/9666/">
+                <span class="message-info">New Anomaly!</span><br>
+                <span>Port?</span>
+            </a>
+        </li>
+    
+        <li class="message-item">
+            <a href="http://www.highschoolhackers.com/goto_message/9723/">
+                <span class="message-info">New Anomaly!</span><br>
+                <span>Cypher...</span>
+            </a>
+        </li>
+    
+        <li class="message-item">
+            <a href="http://www.highschoolhackers.com/goto_message/9780/">
+                <span class="message-info">New Anomaly!</span><br>
+                <span>Help me with my Homework 2</span>
+            </a>
+        </li>
+    
+        <li class="message-item">
+            <a href="http://www.highschoolhackers.com/goto_message/9837/">
+                <span class="message-info">New Anomaly!</span><br>
+                <span>ababababababababababababab</span>
+            </a>
+        </li>
+    
+        <li class="message-item">
+            <a href="http://www.highschoolhackers.com/goto_message/9950/">
+                <span class="message-info">New Anomaly!</span><br>
+                <span>Crypto Guess!</span>
+            </a>
+        </li>
+    
+        <li class="message-item">
+            <a href="http://www.highschoolhackers.com/goto_message/10007/">
+                <span class="message-info">New Anomaly!</span><br>
+                <span>More Hashes!</span>
+            </a>
+        </li>
+    
+        <li class="message-item">
+            <a href="http://www.highschoolhackers.com/goto_message/10143/">
+                <span class="message-info">New Anomaly!</span><br>
+                <span>A message to all</span>
+            </a>
+        </li>
+    
+        <li class="message-item">
+            <a href="http://www.highschoolhackers.com/goto_message/10401/">
+                <span class="message-info">New Anomaly!</span><br>
+                <span>Scramble</span>
+            </a>
+        </li>
+    
+        <li class="message-item">
+            <a href="http://www.highschoolhackers.com/goto_message/10200/">
+                <span class="message-info">New Anomaly!</span><br>
+                <span>Decryption is fun!</span>
+            </a>
+        </li>
+    
+        <li class="message-item">
+            <a href="http://www.highschoolhackers.com/goto_message/10257/">
+                <span class="message-info">New Anomaly!</span><br>
+                <span>Do a Red Team</span>
+            </a>
+        </li>
+    
+        <li class="message-item">
+            <a href="http://www.highschoolhackers.com/goto_message/10458/">
+                <span class="message-info">New Anomaly!</span><br>
+                <span>Looking under the mask</span>
+            </a>
+        </li>
+    
+        <li class="message-item">
+            <a href="http://www.highschoolhackers.com/goto_message/10515/">
+                <span class="message-info">New Anomaly!</span><br>
+                <span>Hotel Conundrum</span>
+            </a>
+        </li>
+    
+        <li class="message-item">
+            <a href="http://www.highschoolhackers.com/goto_message/10587/">
+                <span class="message-info">New Anomaly!</span><br>
+                <span>Handshakes!</span>
+            </a>
+        </li>
+    
+        <li class="message-item">
+            <a href="http://www.highschoolhackers.com/goto_message/10644/">
+                <span class="message-info">New Anomaly!</span><br>
+                <span>Research</span>
+            </a>
+        </li>
+    
+        <li class="message-item">
+            <a href="http://www.highschoolhackers.com/goto_message/10701/">
+                <span class="message-info">New Anomaly!</span><br>
+                <span>PDF</span>
+            </a>
+        </li>
+    
+        <li class="divider"></li>
+        <li><a href="http://www.highschoolhackers.com/messages/">See All Messages</a></li>
+    </ul>
+
+                        <a class="btn btn-default btn-large" href="http://www.highschoolhackers.com/logout/">Logout</a>
+                    
+                </div>
+            </div>
+        </div>
+        
+
+
+        
+
+        <div id="breadcrumb">
+            
+            <a href="http://www.highschoolhackers.com/">Home</a><a href="http://www.highschoolhackers.com/dashboard">Team 5 Dashboard</a><a href="http://www.highschoolhackers.com/blue/dns/" class="current">DNS Records</a>
+            
+                <span class="pull-right" style="margin-top: 7px; margin-right: 20px">Logged in as: chrisleonard</span>
+            
+        </div>
+
+        <!-- Debug bar to see what you are logged in as -->
+        
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+
+                    
+
+    
+        <style>
+            #add-dns-form .control-label {
+                padding-top: 15px;
+                width: 10%;
+            }
+            #add-dns-form .controls {
+                margin-left: 18%;
+                padding: 10px 0;
+            }
+            #add-dns-form .widget-content.nopadding .form-actions {
+                padding-left: 125px;
+            }
+        </style>
+        <div class="row">
+            <div class="col-md-4">
+                <form class="form-horizontal" action="http://www.highschoolhackers.com/blue/dns/" method="POST" id="add-dns-form">
+                    <input type="hidden" name="csrfmiddlewaretoken" value="Yv7gBx1XFk0z9LRRKjtgIIN9VUmNCyvenWlkC2Me5uY1Yc5XeofqcIE46XxytgS7">
+                    
+                    
+
+<div class="widget-box">
+    <div class="widget-title">
+        <span class="icon"><i class="icon-plus"></i></span>
+        <h5>Add DNS Record</h5>
+    </div>
+
+    <div class="widget-content nopadding">
+        <div class="widget-content" style="border-bottom: none;">
+            
+        </div>
+
+        <div class="crispy-form-wrapper">
+
+ <div id="div_id_type" class="form-group"> <label for="id_type" class="control-label col-sm-2 requiredField">
+                Type<span class="asteriskField">*</span> </label> <div class="controls col-sm-8"> <select name="type" class="select form-control" id="id_type"> <option value="A">A</option> <option value="CNAME">CNAME</option> <option value="TXT">TXT</option>
+
+</select> </div> </div> <div id="div_id_name" class="form-group"> <label for="id_name" class="control-label col-sm-2 requiredField">
+                Name<span class="asteriskField">*</span> </label> <div class="controls col-sm-8"> <div class="input-group"><input type="text" class="form-control" id="id_name" name="name" value="" required=""> <span class="input-group-addon">.team5.isucdc.com</span></div> </div> </div> <div id="div_id_value" class="form-group"> <label for="id_value" class="control-label col-sm-2">
+                Value
+            </label> <div class="controls col-sm-8"> <div class="input-group"><span class="input-group-addon">64.5.53.</span><input type="text" class="form-control" id="id_value" name="value" value=""> </div> </div> </div> <div id="div_id_c_value" class="form-group hidden"> <label for="id_c_value" class="control-label col-sm-2">
+                Value
+            </label> <div class="controls col-sm-8"> <select name="c_value" class="hidden select form-control" id="id_c_value"> <option value="git">git</option> <option value="www">www</option> <option value="db">db</option> <option value="billing">billing</option> <option value="game">game</option>
+
+</select> </div> </div> 
+</div>
+
+        <div class="form-actions">
+    <input type="submit" value="Submit" class="btn btn-primary" style="">
+    
+    
+</div>
+    </div>
+</div></form>
+                
+            </div>
+
+
+            <div class="col-md-8">
+                <div class="widget-box dashboard-widget">
+                    <div class="widget-title">
+                        <span class="icon">
+                            <i class="icon-th"></i>
+                        </span>
+                        <h5>DNS Records</h5>
+                    </div>
+                    <div class="widget-content">
+                        <table class="table table-bordered">
+                            <tbody><tr>
+                                <th>Name</th>
+                                <th>Type</th>
+                                <th>Value</th>
+                                <th style="width:200px;">Actions</th>
+                            </tr>
+                            
+                                <tr id="record-740">
+                                    <td class="name">git</td>
+                                    <td class="type">A</td>
+                                    <td class="value">64.5.53.40</td>
+                                    <td>
+                                        <button type="button" data-id="740" class="btn btn-primary edit-button">Edit</button>
+                                        <form method="POST" action="http://www.highschoolhackers.com/blue/dns/delete/(740" style="display:inline;">
+                                            <input type="hidden" name="csrfmiddlewaretoken" value="Yv7gBx1XFk0z9LRRKjtgIIN9VUmNCyvenWlkC2Me5uY1Yc5XeofqcIE46XxytgS7">
+                                            <button type="submit" class="btn btn-danger delete-button">Delete</button>
+                                        </form>
+                                    </td>
+                                </tr>
+                            
+                                <tr id="record-652">
+                                    <td class="name">www</td>
+                                    <td class="type">A</td>
+                                    <td class="value">64.5.53.10</td>
+                                    <td>
+                                        <button type="button" data-id="652" class="btn btn-primary edit-button">Edit</button>
+                                        <form method="POST" action="http://www.highschoolhackers.com/blue/dns/delete/(652" style="display:inline;">
+                                            <input type="hidden" name="csrfmiddlewaretoken" value="Yv7gBx1XFk0z9LRRKjtgIIN9VUmNCyvenWlkC2Me5uY1Yc5XeofqcIE46XxytgS7">
+                                            <button type="submit" class="btn btn-danger delete-button">Delete</button>
+                                        </form>
+                                    </td>
+                                </tr>
+                            
+                                <tr id="record-648">
+                                    <td class="name">db</td>
+                                    <td class="type">A</td>
+                                    <td class="value">64.5.53.15</td>
+                                    <td>
+                                        <button type="button" data-id="648" class="btn btn-primary edit-button">Edit</button>
+                                        <form method="POST" action="http://www.highschoolhackers.com/blue/dns/delete/(648" style="display:inline;">
+                                            <input type="hidden" name="csrfmiddlewaretoken" value="Yv7gBx1XFk0z9LRRKjtgIIN9VUmNCyvenWlkC2Me5uY1Yc5XeofqcIE46XxytgS7">
+                                            <button type="submit" class="btn btn-danger delete-button">Delete</button>
+                                        </form>
+                                    </td>
+                                </tr>
+                            
+                                <tr id="record-649">
+                                    <td class="name">billing</td>
+                                    <td class="type">A</td>
+                                    <td class="value">64.5.53.5</td>
+                                    <td>
+                                        <button type="button" data-id="649" class="btn btn-primary edit-button">Edit</button>
+                                        <form method="POST" action="http://www.highschoolhackers.com/blue/dns/delete/(649" style="display:inline;">
+                                            <input type="hidden" name="csrfmiddlewaretoken" value="Yv7gBx1XFk0z9LRRKjtgIIN9VUmNCyvenWlkC2Me5uY1Yc5XeofqcIE46XxytgS7">
+                                            <button type="submit" class="btn btn-danger delete-button">Delete</button>
+                                        </form>
+                                    </td>
+                                </tr>
+                            
+                                <tr id="record-650">
+                                    <td class="name">game</td>
+                                    <td class="type">A</td>
+                                    <td class="value">64.5.53.30</td>
+                                    <td>
+                                        <button type="button" data-id="650" class="btn btn-primary edit-button">Edit</button>
+                                        <form method="POST" action="http://www.highschoolhackers.com/blue/dns/delete/(650" style="display:inline;">
+                                            <input type="hidden" name="csrfmiddlewaretoken" value="Yv7gBx1XFk0z9LRRKjtgIIN9VUmNCyvenWlkC2Me5uY1Yc5XeofqcIE46XxytgS7">
+                                            <button type="submit" class="btn btn-danger delete-button">Delete</button>
+                                        </form>
+                                    </td>
+                                </tr>
+                            
+                        </tbody></table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+
+
+
+                </div>
+            </div>
+        </div>
+
+        
+        
+        
+        
+        
+
+        <div class="modal" id="delete-modal" tabindex="-1" role="dialog" aria-labelledby="delete-modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h3>Delete </h3>
+            </div>
+            <form method="POST">
+                <div class="modal-body">
+                    Are you sure you want to delete ""?
+                    <input type="hidden" name="csrfmiddlewaretoken" value="Yv7gBx1XFk0z9LRRKjtgIIN9VUmNCyvenWlkC2Me5uY1Yc5XeofqcIE46XxytgS7">
+                </div>
+                <div class="modal-footer">
+                    <input type="hidden" name="_method" value="delete">
+                    <input type="submit" class="btn btn-danger" value="Delete">
+                    <button class="btn btn-default" data-dismiss="modal" aria-hidden="true">Close</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+    
+</div>
+
+<script src="./index_files/output.e94d0ddd61c0.js.download"></script>
+
+
+    <script src="./index_files/iscore-notifications.js.download"></script>
+
+
+<script>
+    hljs.initHighlightingOnLoad();
+
+    $(document).ready(function () {
+
+        
+            $('.carousel').carousel({
+                interval: 3000});
+        
+
+        //setup content height
+        $(window).resize(function () {
+            var new_height = $(window).height() - 55;
+            if (new_height < 675) new_height = 675;
+            $("#content").css('min-height', new_height);
+        });
+
+        $(window).trigger('resize');
+
+        $('input.datepicker-input').datepicker({orientation: "bottom auto"});
+        $('.notifications').each(function () {
+            var that = $(this);
+            var message = that.attr('data-row');
+            var color = that.attr('title');
+            that.notify({
+                message: {text: message},
+                type: color,
+                fadeOut: {enabled: true, delay: 4500}
+            }).show();
+        });
+
+        $('.preview-tab').on('click', function () {
+            var that = $(this);
+            var preview = $(that.attr('href'));
+            var edit = preview.siblings('.tab-pane');
+            var textarea = $('textarea', edit);
+            $('.markdown-content', preview).html(marked(textarea.val()));
+        });
+
+        $('.markdown-content').each(function (i, e) {
+            var item = $(e);
+            item.html(marked(item.html()));
+        });
+    });
+</script>
+
+
+
+    
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('#id_name').focus();
+
+                $('.edit-button').click(function(){
+                    var row_id = $(this).attr('data-id');
+                    $('#record-' + row_id).children('td').each(function(){
+                        var that = $(this)
+                        if(that.attr('class') == 'name'){
+                            $('#id_name').val(that.html());
+                        }
+                        if(that.attr('class') == 'type'){
+                            $('#id_type').val(that.html()).trigger('change');
+                        }
+                        if(that.attr('class') == 'value'){
+                            if(that.parent().find('.type').html() == 'CNAME'){
+                                $('#id_c_value').val(that.html());
+                            }
+                            else {
+                                $('#id_value').val(that.html().split('.')[3]);
+                            }
+                        }
+                        $("#id_value").focus();
+                    });
+                });
+
+                $('#id_type').on('change', process_type_change);
+                process_type_change();
+
+            });
+
+            function process_type_change(){
+                var that = $('#id_type');
+                if (that.val() == 'CNAME'){
+                    $('#div_id_value').addClass('hidden');
+                    $('#div_id_c_value').removeClass('hidden').find('select').removeClass('hidden');
+                }
+                else {
+                    $('#div_id_c_value').addClass('hidden');
+                    $('#div_id_value').removeClass('hidden');
+                }
+                if (that.val() == 'TXT'){
+                    $('#div_id_value').find('.input-group-addon').addClass('hidden')()
+                }
+                else{
+                    $('#div_id_value').find('.input-group-addon').removeClass('hidden')
+                }
+            }
+        </script>
+    
+
+
+
+
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
+  div.grammarly-desktop-integration {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select:none;
+    user-select:none;
+  }
+
+  div.grammarly-desktop-integration:before {
+    content: attr(data-content);
+  }
+</style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>
